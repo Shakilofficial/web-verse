@@ -63,5 +63,60 @@
 }
 .btn:hover{
     background-color:black;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in;
+}
+.about{
+    background-color: rgba(240, 240, 238, 0.932);
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: #6c63ff;
+}
+.about-info{
+    margin-left: 100px;
+    padding-left: 50px;
+}
+.info-header{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.info-pg{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.service-container{
+    display: flex;
+    margin-top: 20px;
+}
+.box{
+    width: 300px;
+    box-shadow: 4px 4px 15px #202020;
+    text-align: center;
+    padding: 10px;
+    margin:20px;
+    border-radius: 3px;
+    justify-content: space-around;
+}
+.icon-img{
+    margin: 10px;
+    width: 100px;
+}
+.box-header{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.box-p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.box:hover{
+    box-shadow: 5px 5px 15px #6c63ff;
 }
