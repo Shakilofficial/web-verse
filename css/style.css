@@ -95,6 +95,7 @@
 .service-container{
     display: flex;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 .box{
     width: 300px;
@@ -119,4 +120,74 @@
 }
 .box:hover{
     box-shadow: 5px 5px 15px #6c63ff;
+}
+
+.footer-container{
+    background-color: #6c63ff;
+    margin-top: 20px;
+}
+.footer-item{
+    margin-top: 50px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    
+}
+.footer-photo{
+    width: 250px;
+}
+.links{
+    margin: 10px;
+}
+.links a{
+    text-decoration: none;
+    display:block;
+    margin: 5px;
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.links a:hover{
+    color: black;
+}
+.contact-info{
+    margin-top: 10px;
+}
+.contact-info p{
+    margin-top: 15px;
+    color: white;
+}
+.profile p{
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+}
+.copyright p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* <<<<< Media Query>>>> */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 601px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  
+}
+
+/* Medium devices (landscape tablets, 769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Large devices (desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+    
 }
